@@ -14,3 +14,4 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "posts"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+media_folder: static
