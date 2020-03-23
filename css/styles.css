@@ -1,6 +1,9 @@
-body{
-    background-color: green;
-}
 .main{
-    color: RED;
+    color: red;
+    
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
 }

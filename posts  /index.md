@@ -1,7 +1,6 @@
 ---
-layout: posts
+layout: index
 title: "List posts"
-tags: post
 slug: post
 ---
 ## Below are the posts we haved
