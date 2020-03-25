@@ -1,3 +1,4 @@
 build:
   lifecycle:
     onInit: echo "Do thing on onInit event"
+    onInstall: echo "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
