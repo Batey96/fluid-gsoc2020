@@ -3,5 +3,4 @@ build:
     onInit: echo "Do thing on onInit event"
     onInstall: echo "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     plugins:
-   # Local plugin
-  - type: ./plugins/examplePlugin
+      - type: ./plugins/examplePlugin
