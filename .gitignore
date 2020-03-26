@@ -2,3 +2,5 @@ node_modules
 .history
 _site
 npm-debug.log
+.infusionDocuments
+.gitmodules
