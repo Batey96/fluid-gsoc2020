@@ -1,5 +1,5 @@
 var shell = require('shelljs');
-var config = require('../../configs');
+var config = require('../configs');
 var fetch = require('node-fetch');
 
 async function getSubModule(){
@@ -15,9 +15,18 @@ async function getSubModule(){
     shell.exec("echo Versioin "+element.name);
 });
   }
-
-module.exports = {
-  onPreBuild: () => {
-    shell.exec("git submodule add https://github.com/Batey96/testCLoner.git docs");    
-  },
+  
+function netlifyPlugin(conf) {
+  return {
+    name: 'netlify-plugin-a11y',
+    async onPostBuild({
+      pluginConfig: { checkPaths, resultMode = 'error', debugMode },
+      constants: { PUBLISH_DIR },
+      utils: { build }
+    }) {
+      console.log('Runing from above xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');   
+    }
+  };
 }
+
+module.exports = netlifyPlugin;
