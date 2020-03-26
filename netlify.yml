@@ -3,4 +3,5 @@ build:
     onInit: echo "Do thing on onInit event"
     onInstall: echo "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     plugins:
-      - type: ./plugins/
+      getCloneBuilder:
+        type: ./plugins/netlify-getClone-plugin
