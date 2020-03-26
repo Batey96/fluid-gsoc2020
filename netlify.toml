@@ -1,5 +1,3 @@
-[build]
-  command = "DEBUG=* eleventy"
 [[plugins]]
   package = './plugin'
   [plugins.inputs]
