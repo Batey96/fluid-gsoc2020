@@ -17,7 +17,8 @@ async function getSubModule(){
   }
 
 module.exports = {
-  onPostBuild: () => {
-    getSubModule().then('Versions are now available, clap for me !')
+  onInit: () => {
+    console.log('hello maradona manyanmansynsxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');
+    
   },
 }
