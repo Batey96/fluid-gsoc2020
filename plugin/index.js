@@ -21,7 +21,6 @@ function netlifyPlugin(conf) {
     name: 'netlify-plugin-a11y',
     async onPostBuild({
       pluginConfig: { checkPaths, resultMode = 'error', debugMode },
-      constants: { PUBLISH_DIR },
       utils: { build }
     }) {
       console.log('Runing from above xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');   
