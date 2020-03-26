@@ -1,3 +1,5 @@
+var shell = require('shelljs');  
+
   function netlifyPlugin(conf) {
   return {
     name: 'plugin',
