@@ -1,10 +1,6 @@
-[build]
-  command = "echo 'hi'"
-
 [[plugins]]
   package = "./plugin/index.js"
   [plugins.inputs]
-    # required config
     # # optional config
     resultMode = "warn" # is "error" by default
 

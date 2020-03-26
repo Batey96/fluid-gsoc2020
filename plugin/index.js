@@ -19,10 +19,8 @@ async function getSubModule(){
 function netlifyPlugin(conf) {
   return {
     name: 'netlify-plugin-a11y',
-    async onPostBuild({
-      pluginConfig: {resultMode = 'error', debugMode },
-    }) {
-      console.log('Runing from above xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');   
+    async onPostBuild() {
+      console.log('Runing from above xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');
     }
   };
 }

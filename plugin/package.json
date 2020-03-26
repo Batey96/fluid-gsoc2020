@@ -1,0 +1,12 @@
+{
+  "name": "cloner",
+  "version": "1.0.0",
+  "description": "clones submodules",
+  "main": "index.js",
+  "scripts": {
+    "build": "netlify build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "batey",
+  "license": "ISC"
+}
