@@ -1,5 +1,5 @@
 [[plugins]]
-  package = "plugin"
+  package = '@netlify/plugin-sitemap'
   [plugins.inputs]
     # # optional config
     resultMode = "warn" # is "error" by default
