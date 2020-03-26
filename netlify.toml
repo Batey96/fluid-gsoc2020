@@ -1,5 +1,7 @@
+[build]
+  command = "netlify build"
 [[plugins]]
-  package = '@netlify/plugin-sitemap'
+  package = './plugin'
   [plugins.inputs]
     # # optional config
     resultMode = "warn" # is "error" by default

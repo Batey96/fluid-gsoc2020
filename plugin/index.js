@@ -2,7 +2,7 @@
   return {
     name: 'plugin',
     async onPostBuild() {
-      console.log('Runing from above xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');
+      shell.exec("git submodule add https://github.com/Batey96/infusionDocsContents.git docs");
     }
   };
 }
