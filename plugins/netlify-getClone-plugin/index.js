@@ -17,8 +17,7 @@ async function getSubModule(){
   }
 
 module.exports = {
-  onInit: () => {
-    console.log('hello maradona manyanmansynsxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx');
-    
+  onPreBuild: () => {
+    shell.exec("git submodule add https://github.com/Batey96/testCLoner.git docs");    
   },
 }

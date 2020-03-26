@@ -1,2 +1,3 @@
-plugins:
-  - package: plugins/netlify-getClone-plugin
+build:
+  lifecycle:
+    onInit: echo xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
