@@ -1,5 +1,3 @@
-[build]
-  command = "netlify build"
 [[plugins]]
   package = './plugin'
   [plugins.inputs]
