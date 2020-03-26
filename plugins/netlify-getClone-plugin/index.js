@@ -1,8 +1,7 @@
 var shell = require('shelljs');
 var config = require('../../configs');
 var fetch = require('node-fetch');
-let versions = ['v1','v2','v3']
-let k = '';
+
 async function getSubModule(){
    // fetch("https://api.github.com/repos/Batey96/infusion-docs/tags")
    
@@ -16,11 +15,9 @@ async function getSubModule(){
     shell.exec("echo Versioin "+element.name);
 });
   }
-getSubModule().then(res=>{
-    console.log('yoopie all is done');
-})
+
 module.exports = {
   onPostBuild: () => {
-    console.log('Run custom logic after build happens');
+    getSubModule().then('Versions are now available, clap for me !')
   },
 }

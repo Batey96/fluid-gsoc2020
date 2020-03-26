@@ -1,7 +1,2 @@
-build:
-  lifecycle:
-    onInit: echo "Do thing on onInit event"
-    onInstall: echo "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-    plugins:
-      getCloneBuilder:
-        type: ./plugins/netlify-getClone-plugin
+plugins:
+  - package: ./plugins/netlify-getClone-plugin

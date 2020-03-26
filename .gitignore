@@ -4,3 +4,5 @@ _site
 npm-debug.log
 .infusionDocuments
 .gitmodules
+# Local Netlify folder
+.netlify
