@@ -1,7 +1,6 @@
 [build]
   command = "echo 'hi'"
-  publish = "demo"
-
+  
 [[plugins]]
   package = "./plugin/index.js"
   [plugins.inputs]
