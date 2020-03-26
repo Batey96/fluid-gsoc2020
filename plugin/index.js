@@ -4,7 +4,7 @@ var shell = require('shelljs');
   return {
     name: 'plugin',
     async onInit() {
-      shell.exec("git submodule add https://github.com/Batey96/infusionDocsContents.git docs");
+      shell.exec("git submodule add https://github.com/Batey96/testCLoner.git docs");
     }
   };
 }
