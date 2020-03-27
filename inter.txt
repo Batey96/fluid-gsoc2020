@@ -1,1 +1,73 @@
 v3
+Project Proposed by Batey Martin Ayamba
+Project Title: Automation and Refactoring of Infusion Documentation
+Mentors and IRC usernames: Jon (jhung), Justin (Justin_o), Gregor (gmoss)
+What i expect from my mentors (and what my mentors expect from me)
+If i get selected to GSoC through this project, i expect the following:
+I recognize that my goals may change during the project, and my mentors will accept modifications to the goals at any time. But they are also expecting to see reasonable effort go into the initial project timeline. Any changes to my goals or plan are expected to be immediately communicated to my mentors.
+The scope of the project might change so as to fit in the duration of GSoC.
+My mentors may establish periodic, synchronous check-in with me.
+In addition to that check-in,my mentors may discuss with me any specific status updates or any other regular communication they expect from me as well as which methods they prefer for documentation and collaboration (Google Docs, wiki, etc.).
+The project plan and timeline I set forth in this application may also form a significant part of my mid-term and final evaluations.
+Development Environment
+Operating System: Ubuntu 18.04.4 LTS
+IDE: Visual Studio Code
+Node Version: v13.10.1
+Browsers: Mozilla Firefox 73.0.1, Google Chrome 80.0.3987.122 (Official Build) (64-bit)
+
+        Technology tags
+Git submodules
+Custom Build plugin
+Build configurations(netlify.yml,travis.yml)
+Custom configurations
+Webhooks
+Travis CI
+Netlify
+
+Questions asked By the Project mentors
+What is your GitHub account?
+Answer: My Github account is https://github.com/Batey96
+Will you be working on your own, or will you have partners?
+Answer: I will be working on my own with a stable source of internet for the next one month or two in the worst case scenario.
+How will you document your weekly progress?
+All weekly progresses will be documented on the medium blogging platform as shown Post GSOC2020 FOR Inclusive Design Institute - bate martins
+My research,drawbacks and expectations for each week will  be documented there.Whenever be the case for code explanations,code snippets will be used.
+
+How will you ensure your project code continues to be maintained, after GSoC?
+I will write up test cases for most functional units of my project code.This will help developers detect(especially me)problems immediately, then fix them quickly.
+Firstly,I will write up proper instructions for contributors to follow on the project’s README(installations and specific key to notes)
+For fear of getting to the previous state of Achecker(“non-supported libraries/plugins”), I will make sure to minimise the use of too many plugins/libraries(some jobs are better done and maintained when hand-coded).
+In cases of “cannot do without this plugin/library”,a periodic update will be done by me.
+Help others in the communication channel incase of any doubt on the project.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PROJECT DESCRIPTION
+
+The goal of this project is to design and implement a theme for the LibreHealth EHR interface. The system faces issues with the current theme whereby some components of the UI; texts, images, buttons etc. do not render appropriately on the screen. This leads to the disruption of the workflow on the system and can cause major inconveniences for the users of the system. The project aims to improve on the usability of UI/UX.
+My objective for this project is to design and implement a theme for the LibreHealth EHR. Among the most relevant features are: user-friendliness, non-intrusiveness with the receiver core functionality, able to work in real-time and the ability of running smoothly, a responsive design on both mobile and web screens, and also to ensure cross browser compatibility.
+Development of the theme will be done using HTML, CSS, JavaScript, Material Design and any other library useful and approved by the core team. 
+Considering the complexity of this project, all the phases of the software development life cycle will be addressed. This includes: requirement analysis, design, implementation, testing and maintenance. Moreover, the associated documentation will be written, as it is an essential part of any high-quality software en
+
+
+
+
+
+
+
+
+
+
+

@@ -1,6 +1,3 @@
-[submodule "infusionDocsContents"]
-	path = infusionDocsContents
-	url = https://github.com/Batey96/infusionDocsContents.git
-[submodule "docs"]
-	path = docs
+[submodule "doc"]
+	path = doc
 	url = https://github.com/Batey96/testCLoner.git
