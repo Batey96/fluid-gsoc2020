@@ -1,3 +1,6 @@
 [submodule "doc"]
 	path = doc
 	url = https://github.com/Batey96/testCLoner.git
+[submodule "docs"]
+	path = docs
+	url = https://github.com/Batey96/testCLoner.git
