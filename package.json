@@ -21,6 +21,6 @@
   "dependencies": {
     "netlify-cli": "^2.40.0",
     "node-fetch": "^2.6.0",
-    "shelljs": "^0.8.3"
+    "shelljs": "^0.8.5"
   }
 }
